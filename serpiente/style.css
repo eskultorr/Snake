@@ -1,0 +1,93 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(31, 112, 189);
+}
+
+.container
+{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px auto;
+    border: 2px solid white;
+    background-color: lightcoral;
+}
+
+.container .start
+{
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: green;
+}
+.container .start:hover
+{
+    background-color: cyan;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+p
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.score
+{
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 10px;
+}
+
+.grid
+{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: white;
+    margin: 0px auto;
+    background-color: gray;
+    box-shadow: 0px 0px 10px red;
+}
+
+.grid div
+{
+    width: 30px;
+    height: 30px;
+    /* border-style: solid; */
+
+}
+
+.snake
+{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.apple
+{
+    background-color: purple;
+    border-radius: 20px;
+}
